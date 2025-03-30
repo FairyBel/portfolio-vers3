@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="../loader.css" />
+  </head>
+  <body>
+    <div class="loader">
+      <div class="loader2"></div>
+    </div>
+
+    <nav class="menu-wrapper" id="menu" onclick="addClass('active')">
+      <i class="fas fa-ellipsis-v"></i>
+      <div class="menu">
+        <a href="../index.html" class="item"> Главная </a>
+        <a href="#" class="item"> Проекты </a>
+        <a
+          href="https://drive.google.com/file/d/1IRZTf7oW3R8nEe2MpWzd7pQzQaGTJQSt/view?usp=share_linkt"
+          target="_blank"
+          class="item"
+        >
+          Резюме
+        </a>
+        <a href="../index.html" class="item"> Навыки </a>
+        <a href="../index.html" class="item"> Контакты </a>
+      </div>
+    </nav>
+<div id="particles-js"></div>
+    <div class="container-header">
+      <div class="header">
+        <div class="header-projects">
+          <div class="square">М</div>
+          <div class="square">о</div>
+          <div class="square">и</div>
+          <div class="square">&nbsp;</div>
+          <div class="square">п</div>
+          <div class="square">р</div>
+          <div class="square">о</div>
+          <div class="square">е</div>
+          <div class="square">к</div>
+          <div class="square">т</div>
+          <div class="square">ы</div>
+        </div>
+      </div>
+      <div class="filter">
+        <button class="button circle" data-filter="javascript">
+          <span class="app"></span>
+        </button>
+        <button class="button circle" data-filter="react">
+          <span class="app"></span>
+        </button>
+        <button class="button circle" data-filter="bootstrap">
+          <span class="app"></span>
+        </button>
+        <button class="button circle" data-filter="app">
+          <span class="app"></span>
+        </button>
+        <button class="button circle" data-filter="all">
+          <span class="app"></span>
+        </button>
+      </div>
+
+      <div class="container-card">
+        <div class="card react">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/find-recipes-mockup.png?v=1668441935439"
+                alt="find-recipes-mockup"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3 class="">"Find recipes"</h3>
+              <p>Поисковик рецептов по ингрединтам</p>
+              <p>React/API</p>
+              <a
+                href="https://search-find-recipes.netlify.app/"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card javascript">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/24094660-13a1-4a54-a493-3b6f613eed3f/%D0%9C%D0%BE%D0%BA%D0%B0%D0%BF%20%D1%81%D0%B0%D0%B9%D1%82%20%D1%82%D0%B0%D1%82%D1%83%202%D0%B2.jpg?v=1743339656385"
+                alt="mockup-Web-tattoo"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3 class="">"Web Tattoo Master"</h3>
+              <p>Вебсайт мастера тату</p>
+              <p>HTML/CSS3/JS</p>
+              <a
+                href="https://www.tattoo45.ru/"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card react">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/24094660-13a1-4a54-a493-3b6f613eed3f/mockup-Pizza-loca.png?v=1671095152001"
+                alt="mockup-Pizza-loca"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3 class="">"Pizza Loca"</h3>
+              <p>Вебсайт доставки пиццы</p>
+              <p>React/Redux</p>
+              <a
+                href="https://delivery-pizza-loca.netlify.app/"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card app javascript">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/HNY%20mocup.png?v=1669639880438"
+                alt="mockup-christmas"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3>Таймер Нового года</h3>
+              <p>Таймер времени до начала Нового года, мелодии, список дел</p>
+              <p>JS/GSAP/Particles</p>
+              <a
+                href="https://christmas-todo-list-2vers.glitch.me"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card app react">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/no-Bored-mocup.png?v=1668439062112"
+                alt="no-Bored-mocup"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3 class="">"No time to be bored!"</h3>
+              <p>Советы по запросу интересных занятий</p>
+              <p>React/API</p>
+              <a
+                href="https://no-boredom.netlify.app/"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bootstrap">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/mockup-websaitSalonSpa.png?v=1666472817755.png"
+                alt="mockup-websaitSalonSpa"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3>"Premium Spa Lotos"</h3>
+              <p>Спа салон премиум класса "LOTOS"</p>
+              <p>Bootstrap</p>
+              <a
+                href="https://spa-lotos.glitch.me"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card javascript">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/mockup-websaitFurniture.png?v=1666472678367"
+                alt="mockup-websaitFurniture"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3>"Мебельный салон"</h3>
+              <p>Открытие мебельного салона</p>
+              <p>HTML/CSS3/JS</p>
+              <a
+                href="https://project--furniture-byalla.glitch.me"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card bootstrap">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/mockup%20photographer.png?v=1667211257778"
+                alt="mockup-photographer"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3>"Roman Sadko Photographer"</h3>
+              <p>Вебсайт фотограф Роман Садко</p>
+              <p>Bootstrap</p>
+              <a
+                href="https://pfotografer-bootstr.glitch.me"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card app javascript">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/mockup-Weather.png?v=1666472585818"
+                alt="mockup-Weather"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3>Прогноз погоды</h3>
+              <p>Прогноз погоды в любой точке мира</p>
+              <p>JS/API/Particles</p>
+              <a
+                href="https://theweather---world.glitch.me"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card app">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/mockup-calcBudjet.png?v=1666472105499"
+                alt="mockup-calcBudjet"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3>Калькулятор бюджета</h3>
+              <p>Расчет бюджета позволит определить расходы на месяц</p>
+              <p>HTML/CSS3/JS</p>
+              <a
+                href="https://budget-calculater.glitch.me"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card app javascript">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/mockup-ChoiseMovie.png?v=1666472171109"
+                alt="mockup-ChoiseMovie"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3>Какой фильм посмотреть?</h3>
+              <p>Подборка фильмов для разных ситуаций и настроения.</p>
+              <p>HTML/CSS3/JS</p>
+              <a
+                href="https://play-what-film.glitch.me"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card app javascript">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/mockup-searchBooks.png?v=1666472498129"
+                alt="mockup-searchBooks"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3>Поисковик популярных книг</h3>
+              <p>Поисковик различной литературы со всего мира.</p>
+              <p>HTML/CSS3/JS</p>
+              <a
+                href="https://find-book.glitch.me"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card app javascript">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/mockup-melodySleep.png?v=1666472302347"
+                alt="mockup-melodySleep"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3>Мелодии для сна</h3>
+              <p>Спокойный сон под звуки природы</p>
+              <p>HTML/CSS3/JS</p>
+              <a
+                href="https://melody-for-sleep.glitch.me"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card app javascript">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/mockup-taimerMeat.png?v=1666472543566"
+                alt="mockup-taimerMeat"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3>Таймер жарки мяса</h3>
+              <p>Выбирай степень прожарки стейка, таймер в этом поможет</p>
+              <p>HTML/CSS3/JS</p>
+              <a
+                href="https://beef-steak-timer.glitch.me"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card app javascript">
+          <div class="face face1">
+            <div class="content">
+              <img
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/mockup-horoscope.png?v=1666472240266"
+                alt="mockup-horoscope"
+                width="300px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3>Гороскоп на день</h3>
+              <p>Узнай свой гороскоп на сегодня</p>
+              <p>HTML/CSS3/JS</p>
+              <a
+                href="https://zodiac-prediction.glitch.me"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social_icons">
+        <ul class="icons">
+          <li>
+            <a
+              href="https://t.me/fairybell23"
+              target="_blank"
+              class="fa telegram"
+            >
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/FairyBel"
+              target="_blank"
+              class="fa github"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:belyaevai86@gmail.com"
+              target="_blank"
+              class="fa google"
+            >
+              <i class="fa-brands fa-google"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="tel:+79828072797" target="_blank" class="fa whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="projects.js"></script>
+  </body>
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="loader.css" />
+  </head>
+  <body>
+    <div class="loader">
+      <div class="loader2"></div>
+    </div>
+
+    <div id="particles-js"></div>
+    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="myVideo" src="https://cdn.glitch.me/24094660-13a1-4a54-a493-3b6f613eed3f/video-bg.mp4?v=1671626301721" type="video/mp4"> </video>
+    <audio id="myAudio" src="https://cdn.glitch.global/24094660-13a1-4a54-a493-3b6f613eed3f/Debussy%20-%20Clair%20de%20lune.mp3?v=1671021852705" loop="loop"></audio>
+
+    <section>
+      <nav class="menu-wrapper" id="menu" onclick="addClass('active')">
+        <i class="fas fa-ellipsis-v"></i>
+        <div class="menu">
+          <a href="#" class="item"> Главная </a>
+          <a href="#projects" class="item"> Проекты </a>
+          <a
+            href="https://drive.google.com/file/d/1IRZTf7oW3R8nEe2MpWzd7pQzQaGTJQSt/view?usp=share_linkt"
+            target="_blank"
+            class="item"
+          >
+            Резюме
+          </a>
+          <a href="#about" class="item"> Навыки </a>
+          <a href="#contacts" class="item"> Контакты </a>
+        </div>
+      </nav>
+    </section>
+
+    <div class="container-header">
+      <div class="under-container">
+        <div>
+          <h2 class="str">I`m a Front-end-developer...</h2>
+        </div>
+        <div class="fog-shadow">
+          <span>I</span>
+          <span>R</span>
+          <span>I</span>
+          <span>N</span>
+          <span>A</span>
+          <span>&nbsp;</span>
+          <span>B</span>
+          <span>E</span>
+          <span>L</span>
+          <span>I</span>
+          <span>A</span>
+          <span>E</span>
+          <span>V</span>
+          <span>A</span>
+        </div>
+
+        <div>
+          <h2 class="str-head">PORTFOLIO</h2>
+        </div>
+      </div>
+      <div class="cont-mouse">
+        <div class="mouse"><div class="molette"></div></div>
+      </div>
+      <div class="cont-music">
+        <button class="btn-music">
+          <img class="music-icon" src="https://cdn.glitch.global/24094660-13a1-4a54-a493-3b6f613eed3f/equalizer.png?v=1671021858602" alt="iconMusic" />
+          <span class="icon-text">OFF</span>
+        </button>
+      </div>
+    </div>
+
+    <section id="projects">
+      <div class="header">
+        <div class="header-projects">
+          <div class="square">М</div>
+          <div class="square">о</div>
+          <div class="square">и</div>
+          <div class="square">&nbsp;</div>
+          <div class="square">п</div>
+          <div class="square">р</div>
+          <div class="square">о</div>
+          <div class="square">е</div>
+          <div class="square">к</div>
+          <div class="square">т</div>
+          <div class="square">ы</div>
+        </div>
+      </div>
+      <div class="container-projects">
+      
+      <div class="image-parlax" ontouchstart="this.classList.toggle('hover');">
+        <div class="image-container">
+          <div class="front-side" style="background-image: url(https://cdn.glitch.global/24094660-13a1-4a54-a493-3b6f613eed3f/%D0%9C%D0%BE%D0%BA%D0%B0%D0%BF%20%D1%81%D0%B0%D0%B9%D1%82%20%D1%82%D0%B0%D1%82%D1%83%202%D0%B2.jpg?v=1743339656385)">
+            <div class="inner">
+              <p>WEB tatto master</p>
+              <span>HTML/CSS3/JavaScript</span>
+            </div>
+          </div>
+          <div class="back-side">
+            <div class="inner">
+              <p>Татуировки от Анастасии Брюхановой</p>
+              <a
+                href="https://www.tattoo45.ru/"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="image-parlax" ontouchstart="this.classList.toggle('hover');">
+        <div class="image-container">
+          <div class="front-side" style="background-image: url(https://cdn.glitch.global/24094660-13a1-4a54-a493-3b6f613eed3f/mockup-Pizza-loca.png?v=1671095152001)">
+            <div class="inner">
+              <p>Доставка пиццы</p>
+              <span>React/Redux</span>
+            </div>
+          </div>
+          <div class="back-side">
+            <div class="inner">
+              <p>Сайт доставки пиццы</p>
+              <a
+                href="https://delivery-pizza-loca.netlify.app/"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="image-parlax" ontouchstart="this.classList.toggle('hover');">
+        <div class="image-container">
+          <div class="front-side" style="background-image: url(https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/find-recipes-mockup.png?v=1668441935439)">
+            <div class="inner">
+              <p>Find recipes</p>
+              <span>React/API</span>
+            </div>
+          </div>
+          <div class="back-side">
+            <div class="inner">
+              <p>Поисковик рецептов по ингрединтам</p>
+              <a
+                href="https://search-find-recipes.netlify.app/"
+                target="_blank"
+                type="button"
+              >
+                Перейти
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</div>
+    <div data-aos="fade-right"
+     data-aos-offset="250"
+     data-aos-easing="ease-in-sine">
+      <div class="btn-projects">
+  <a href="./projects/projects.html" target="_blank" type="button">Все проекты - перейти</a>
+</div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="header">
+        <div class="header-projects">
+          <div class="square">О</div>
+          <div class="square">б</div>
+          <div class="square">о</div>
+          <div class="square">&nbsp;</div>
+          <div class="square">м</div>
+          <div class="square">н</div>
+          <div class="square">е</div>
+        </div>
+      </div>
+      <div class="cont-about bubble">
+        <div class="about-par">
+          <p>
+            Меня зовут Ирина, и я - front-end разработчик. В разработку пришла в
+            январе 2022 года. <br />
+            Обожаю использовать css эффекты, анимации, "оживлять" статичные и
+            скучные сайты. Мой фетиш - детали - люблю все доводить до
+            совершенства с перфекционичной точностью, самоорганизована и часто
+            самокритична. Создаю динамичные, адаптивные и интуитивно понятные
+            веб-сайты, лендинг-страницы. <br />
+            На данный момент изучаю React и Node.js.
+          </p>
+          <p>
+            Свое свободное время провожу с сыном, обожаю путешествовать - горы,
+            леса, озера - моя страсть! Увлекаюсь чтением художественной
+            литературы и фэнтэзи, поклонник Буковски и вселенной Толкиена.
+          </p>
+          <p>
+            Открыта всему новому. Если у вас есть предложения совместной работы
+            или вопросы по моим работам, пишите мне.
+          </p>
+        </div>
+        <div data-aos="zoom-in">
+        <ul class="about-skills">
+          <li class="list">HTML</li>
+          <li class="list">CSS3</li>
+          <li class="list">JavaScript</li>
+          <li class="list">AJAX</li>
+          <li class="list">React</li>
+          <li class="list">Node.js</li>
+          <li class="list">Flexbox</li>
+          <li class="list">Bootstrap5</li>
+          <li class="list">GSAP</li>
+          <li class="list">Git</li>
+          <li class="list">FIGMA</li>
+        </ul>
+        </div>
+      </div>
+      
+        <div class="container-sertificats">
+          <div class="galary-sertificats">
+            <button class="next">
+              <img
+                class="btn"
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/left-chevron.png?v=1666467950308"
+                alt="left-chevron"
+                width="40px"
+              />
+            </button>
+            <div class="slider-main" id="slider-main">
+              <div class="item-sert">
+                <img
+                  class="pictures"
+                  src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-html-css3.jpg?v=1666468143791"
+                  alt="sert-html-css3"
+                  width="300px"
+                />
+              </div>
+              <div class="item-sert">
+                <img
+                  class="pictures2"
+                  src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-frontend.png?v=1666878817815"
+                  alt="sert-frontend"
+                  width="300px"
+                />
+              </div>
+              <div class="item-sert">
+                <img
+                  class="pictures3"
+                  src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-bootstrap.jpg?v=1666468074231"
+                  alt="sert-bootstrap"
+                  width="300px"
+                />
+              </div>
+            </div>
+            <button class="prev">
+              <img
+                class="btn"
+                src="https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/right-chevron.png?v=1666468052475"
+                alt="right-chevron"
+                width="40px"
+              />
+            </button>
+          </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+      <div class="header">
+        <div class="header-projects">
+          <div class="square">М</div>
+          <div class="square">о</div>
+          <div class="square">и</div>
+          <div class="square">&nbsp;</div>
+          <div class="square">к</div>
+          <div class="square">о</div>
+          <div class="square">н</div>
+          <div class="square">т</div>
+          <div class="square">а</div>
+          <div class="square">к</div>
+          <div class="square">т</div>
+          <div class="square">ы</div>
+        </div>
+      </div>
+      <div class="container-contacts">
+        <form
+          class="form"
+          action="https://formspree.io/f/xrgdayeg"
+          method="POST"
+        >
+          <div class="pageTitle title">Контакты</div>
+          <input
+            type="text"
+            class="name formEntry"
+            placeholder="Имя.."
+            required=""
+          />
+          <input
+            type="email"
+            name="email"
+            class="email formEntry"
+            placeholder="Email.."
+            required=""
+          />
+          <textarea
+            class="message formEntry"
+            name="message"
+            placeholder="Ваше сообщение..."
+            required=""
+          ></textarea>
+          <button type="submit" class="submit formEntry">Отправить</button>
+        </form>
+
+        <div class="container-map">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d279689.13761237945!2d60.1955840894306!3d56.79324468062168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c165968ec03e5f%3A0x697b2bfae0c29848!2z0LMuINCV0LrQsNGC0LXRgNC40L3QsdGD0YDQsywg0KHQstC10YDQtNC70L7QstGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1669533265401!5m2!1sru!2sru"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="social_icons">
+            <ul class="icons">
+              <li>
+                <a
+                  href="https://t.me/fairybell23"
+                  target="_blank"
+                  class="fa telegram"
+                >
+                  <i class="fa-brands fa-telegram"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/FairyBel"
+                  target="_blank"
+                  class="fa github"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:belyaevai86@gmail.com"
+                  target="_blank"
+                  class="fa google"
+                >
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="tel:+79828072797" target="_blank" class="fa whatsapp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
