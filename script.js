@@ -86,20 +86,32 @@ const photos = [
   'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-frontend.png?v=1666878817815',
   'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-bootstrap.jpg?v=1666468074231',
   'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-gsap.png?v=1666468102900',
+  'https://cdn.glitch.global/24094660-13a1-4a54-a493-3b6f613eed3f/%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20react.jpg?v=1751101371241',
   
 ]
 const photos2 = [
   'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-frontend.png?v=1666878817815',
   'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-bootstrap.jpg?v=1666468074231',
   'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-gsap.png?v=1666468102900',
+  'https://cdn.glitch.global/24094660-13a1-4a54-a493-3b6f613eed3f/%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20react.jpg?v=1751101371241',
   'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-html-css3.jpg?v=1666468143791',
   
 ]
 const photos3 = [
   'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-bootstrap.jpg?v=1666468074231',
   'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-gsap.png?v=1666468102900',
+   'https://cdn.glitch.global/24094660-13a1-4a54-a493-3b6f613eed3f/%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20react.jpg?v=1751101371241',
   'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-html-css3.jpg?v=1666468143791',
   'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-frontend.png?v=1666878817815',
+  
+]
+const photos4 = [
+  
+  'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-gsap.png?v=1666468102900',
+  'https://cdn.glitch.global/24094660-13a1-4a54-a493-3b6f613eed3f/%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20react.jpg?v=1751101371241',
+  'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-html-css3.jpg?v=1666468143791',
+  'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-frontend.png?v=1666878817815',
+  'https://cdn.glitch.global/ffa93e22-ff5b-4161-881c-9f958978fc18/sert-bootstrap.jpg?v=1666468074231',
   
 ]
 let i = 0;
@@ -111,6 +123,7 @@ next.addEventListener("click", () => {
   document.querySelector(".pictures").src = photos[i];
   document.querySelector(".pictures2").src = photos2[i];
   document.querySelector(".pictures3").src = photos3[i];
+  document.querySelector(".pictures4").src = photos4[i];
 });
 
 prev.addEventListener("click", () => {
@@ -121,7 +134,9 @@ prev.addEventListener("click", () => {
   document.querySelector(".pictures").src = photos[i];
   document.querySelector(".pictures2").src = photos2[i];
   document.querySelector(".pictures3").src = photos3[i];
+  document.querySelector(".pictures4").src = photos4[i];
 });
+  
   
 
 

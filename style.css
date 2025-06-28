@@ -727,6 +727,9 @@ padding: 15px;
   transform: scale(1.1);
   
 }
+.none {
+  display: none;
+}
 .prev,
 .next {
   background-color: rgb(1, 24, 18, 0);
